@@ -1,6 +1,9 @@
 import { Calculator } from "./calculator";
 
 describe("operations-mocha", () => {
+    beforeAll(() => {
+        console.log("jest")
+    });
     test("sum-positive", () => {
         const sum = new Calculator(1, `+`, 3);
         expect(sum.result).toBe(4);

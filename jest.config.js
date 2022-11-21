@@ -2,5 +2,5 @@
 module.exports = {
   preset: "ts-jest",
   testEnvironment: "node",
-  testMatch: ["**/tests/*.spec.ts"]
+  testMatch: ["**/hw-m2/hw5/*.spec.ts"]
 };
